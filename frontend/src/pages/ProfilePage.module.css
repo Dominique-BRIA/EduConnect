@@ -1,0 +1,12 @@
+.page { max-width: 720px; margin: 0 auto; padding: 24px; display: flex; flex-direction: column; gap: 20px; }
+.loading { display: flex; justify-content: center; align-items: center; height: 200px; }
+.profileCard { overflow: hidden; }
+.cover { height: 100px; background: linear-gradient(135deg, #4F46E5, #06B6D4); }
+.profileBody { display: flex; align-items: flex-end; gap: 16px; padding: 0 20px 20px; margin-top: -28px; flex-wrap: wrap; }
+.profileInfo { flex: 1; }
+.name { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+.etab, .pays, .hobby { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+.sectionTitle { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.publications { display: flex; flex-direction: column; gap: 16px; }
+.empty { text-align: center; padding: 40px; color: var(--text-muted); }
+.empty span { font-size: 40px; display: block; margin-bottom: 10px; }
